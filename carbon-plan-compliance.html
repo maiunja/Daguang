@@ -9,19 +9,77 @@
 <body class="bg-slate-50 text-slate-800">
 
 <!-- NAV -->
-<nav class="bg-white border-b border-slate-200">
-  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-    <a href="index.html" class="text-xl font-bold text-emerald-800">大广集团</a>
-    <div class="space-x-6 text-sm">
-      <a href="index.html" class="hover:text-emerald-700">首页</a>
-      <a href="company-profile.html" class="hover:text-emerald-700">公司简介</a>
-      <a href="solomon-overview.html" class="hover:text-emerald-700">认识所罗门</a>
-      <a href="carbon-plan-overview.html" class="hover:text-emerald-700">碳权计划</a>
-      <a href="carbon-plan-compliance.html" class="text-emerald-800 font-medium">合规框架</a>
-      <a href="authorized-contact.html" class="hover:text-emerald-700">授权联络</a>
-    </div>
-  </div>
-</nav>
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <a href="index.html" class="flex items-center">
+                    <span class="text-2xl font-bold tracking-wider text-emerald-900">大广集团</span>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:flex space-x-6 items-center text-sm font-medium">
+                    <a href="index.html" class="text-emerald-700">首頁</a>
+                    
+                    <!-- Company Dropdown -->
+                    <div class="relative nav-dropdown py-4">
+                        <button class="flex items-center hover:text-emerald-700">公司簡介 <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg></button>
+                        <div class="hidden nav-dropdown-menu absolute left-0 mt-0 w-48 bg-white shadow-xl border border-slate-100">
+                            <a href="company-profile.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">公司概況</a>
+                            <a href="company-history.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">發展歷程</a>
+                            <a href="company-team.html" class="block px-4 py-3 hover:bg-slate-50">團隊與組織</a>
+                        </div>
+                    </div>
+
+                    <!-- Solomon Dropdown -->
+                    <div class="relative nav-dropdown py-4">
+                        <button class="flex items-center hover:text-emerald-700">認識所羅門 <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg></button>
+                        <div class="hidden nav-dropdown-menu absolute left-0 mt-0 w-56 bg-white shadow-xl border border-slate-100">
+                            <a href="solomon-overview.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">國家概覽</a>
+                            <a href="solomon-environment.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">自然環境與資源</a>
+                            <a href="solomon-policy.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">政策方向與背景</a>
+                            <a href="solomon-sustainability.html" class="block px-4 py-3 hover:bg-slate-50">可持續發展視角</a>
+                        </div>
+                    </div>
+
+                    <!-- Carbon Dropdown -->
+                    <div class="relative nav-dropdown py-4">
+                        <button class="flex items-center hover:text-emerald-700">碳權計劃 <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg></button>
+                        <div class="hidden nav-dropdown-menu absolute left-0 mt-0 w-56 bg-white shadow-xl border border-slate-100">
+                            <a href="carbon-plan-overview.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">計劃總覽</a>
+                            <a href="carbon-plan-background.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">資源基礎</a>
+                            <a href="carbon-plan-structure.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">階段規劃</a>
+                            <a href="carbon-plan-compliance.html" class="block px-4 py-3 hover:bg-slate-50">合規框架</a>
+                        </div>
+                    </div>
+
+                    <!-- SEZ Dropdown -->
+                    <div class="relative nav-dropdown py-4">
+                        <button class="flex items-center hover:text-emerald-700">經濟特區 <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg></button>
+                        <div class="hidden nav-dropdown-menu absolute left-0 mt-0 w-56 bg-white shadow-xl border border-slate-100">
+                            <a href="sez-overview.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">特區總覽</a>
+                            <a href="sez-industries.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">產業方向</a>
+                            <a href="sez-cooperation.html" class="block px-4 py-3 hover:bg-slate-50">合作模式與原則</a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Dropdown -->
+                    <div class="relative nav-dropdown py-4">
+                        <button class="flex items-center hover:text-emerald-700">聯絡我們 <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg></button>
+                        <div class="hidden nav-dropdown-menu absolute right-0 mt-0 w-48 bg-white shadow-xl border border-slate-100">
+                            <a href="authorized-contact.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">授權聯絡窗口</a>
+                            <a href="contact-team.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">業務聯絡團隊</a>
+                            <a href="contact-us.html" class="block px-4 py-3 hover:bg-slate-50">聯繫我們</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Button Placeholder -->
+                <div class="lg:hidden">
+                    <button class="text-slate-600"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16m-7 6h7"></path></svg></button>
+                </div>
+            </div>
+        </div>
+    </nav>
 
 <!-- HEADER -->
 <header class="bg-emerald-900 text-white py-24">
