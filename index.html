@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大广集团 | 官網首頁 - 所羅門群島國家級項目戰略執行合作夥伴</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans TC', sans-serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(6, 78, 59, 0.6), rgba(6, 78, 59, 0.4)), url('https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover; background-position: center;
+        }
+        .nav-dropdown:hover .nav-dropdown-menu { display: block; }
+    </style>
+</head>
+<body class="bg-white text-slate-800 antialiased">
+
+    <!-- Navigation (Unified for all pages) -->
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <a href="index.html" class="flex items-center">
+                    <span class="text-2xl font-bold tracking-wider text-emerald-900">大广集团</span>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:flex space-x-6 items-center text-sm font-medium">
+                    <a href="index.html" class="text-emerald-700">首頁</a>
+                    
+                    <!-- Company Dropdown -->
+                    <div class="relative nav-dropdown py-4">
+                        <button class="flex items-center hover:text-emerald-700">公司簡介 <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg></button>
+                        <div class="hidden nav-dropdown-menu absolute left-0 mt-0 w-48 bg-white shadow-xl border border-slate-100">
+                            <a href="company-profile.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">公司概況</a>
+                            <a href="company-history.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">發展歷程</a>
+                            <a href="company-team.html" class="block px-4 py-3 hover:bg-slate-50">團隊與組織</a>
+                        </div>
+                    </div>
+
+                    <!-- Solomon Dropdown -->
+                    <div class="relative nav-dropdown py-4">
+                        <button class="flex items-center hover:text-emerald-700">認識所羅門 <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg></button>
+                        <div class="hidden nav-dropdown-menu absolute left-0 mt-0 w-56 bg-white shadow-xl border border-slate-100">
+                            <a href="solomon-overview.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">國家概覽</a>
+                            <a href="solomon-environment.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">自然環境與資源</a>
+                            <a href="solomon-policy.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">政策方向與背景</a>
+                            <a href="solomon-sustainability.html" class="block px-4 py-3 hover:bg-slate-50">可持續發展視角</a>
+                        </div>
+                    </div>
+
+                    <!-- Carbon Dropdown -->
+                    <div class="relative nav-dropdown py-4">
+                        <button class="flex items-center hover:text-emerald-700">碳權計劃 <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg></button>
+                        <div class="hidden nav-dropdown-menu absolute left-0 mt-0 w-56 bg-white shadow-xl border border-slate-100">
+                            <a href="carbon-plan-overview.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">計劃總覽</a>
+                            <a href="carbon-plan-background.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">資源基礎</a>
+                            <a href="carbon-plan-structure.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">階段規劃</a>
+                            <a href="carbon-plan-compliance.html" class="block px-4 py-3 hover:bg-slate-50">合規框架</a>
+                        </div>
+                    </div>
+
+                    <!-- SEZ Dropdown -->
+                    <div class="relative nav-dropdown py-4">
+                        <button class="flex items-center hover:text-emerald-700">經濟特區 <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg></button>
+                        <div class="hidden nav-dropdown-menu absolute left-0 mt-0 w-56 bg-white shadow-xl border border-slate-100">
+                            <a href="sez-overview.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">特區總覽</a>
+                            <a href="sez-industries.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">產業方向</a>
+                            <a href="sez-cooperation.html" class="block px-4 py-3 hover:bg-slate-50">合作模式與原則</a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Dropdown -->
+                    <div class="relative nav-dropdown py-4">
+                        <button class="flex items-center hover:text-emerald-700">聯絡我們 <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg></button>
+                        <div class="hidden nav-dropdown-menu absolute right-0 mt-0 w-48 bg-white shadow-xl border border-slate-100">
+                            <a href="authorized-contact.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">授權聯絡窗口</a>
+                            <a href="contact-team.html" class="block px-4 py-3 hover:bg-slate-50 border-b border-slate-50">業務聯絡團隊</a>
+                            <a href="contact-us.html" class="block px-4 py-3 hover:bg-slate-50">聯繫我們</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Button Placeholder -->
+                <div class="lg:hidden">
+                    <button class="text-slate-600"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16m-7 6h7"></path></svg></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg h-screen flex items-center pt-20">
+        <div class="max-w-7xl mx-auto px-6 w-full">
+            <div class="max-w-3xl">
+                <div class="flex flex-wrap gap-2 mb-6">
+                    <span class="px-3 py-1 bg-emerald-500/20 text-emerald-300 text-xs tracking-widest border border-emerald-500/30 rounded-full">碳權</span>
+                    <span class="px-3 py-1 bg-emerald-500/20 text-emerald-300 text-xs tracking-widest border border-emerald-500/30 rounded-full">自由貿易</span>
+                    <span class="px-3 py-1 bg-emerald-500/20 text-emerald-300 text-xs tracking-widest border border-emerald-500/30 rounded-full">經濟特區</span>
+                    <span class="px-3 py-1 bg-emerald-500/20 text-emerald-300 text-xs tracking-widest border border-emerald-500/30 rounded-full">國際合作</span>
+                    <span class="px-3 py-1 bg-emerald-500/20 text-emerald-300 text-xs tracking-widest border border-emerald-500/30 rounded-full">可持續發展</span>
+                </div>
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">大广集团</h1>
+                <p class="text-xl md:text-2xl text-slate-200 mb-10 leading-relaxed font-light">
+                    立足所羅門群島的綠色合作與發展平台<br>
+                    聚焦碳權合作、自由貿易構想與經濟特區發展方向
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="solomon-overview.html" class="px-8 py-4 bg-emerald-700 hover:bg-emerald-600 text-white font-medium text-center transition">了解所羅門群島</a>
+                    <a href="authorized-contact.html" class="px-8 py-4 border border-white/50 text-white hover:bg-white/10 font-medium text-center transition">聯繫授權窗口</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Summary Sections -->
+    <main>
+        <!-- Who We Are -->
+        <section class="py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+                    <div>
+                        <h2 class="text-3xl font-bold mb-8 text-emerald-900">關於大广集团</h2>
+                        <div class="space-y-6 text-slate-600 leading-relaxed text-lg">
+                            <p>大广集团面向國際市場，關注太平洋島國在綠色發展與區域合作中的長期機會。</p>
+                            <p>我們在項目早期階段提供信息整合、溝通協調與商業對接支持，推動合作在合規與穩健的框架下前行。</p>
+                            <p>我們堅持長期主義：以資源保護為基礎，以多方協作為路徑，以可持續價值為目標。</p>
+                        </div>
+                        <a href="company-profile.html" class="inline-block mt-8 text-emerald-700 font-bold hover:underline">深入了解公司概況 &rarr;</a>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="p-6 bg-slate-50 border-l-4 border-emerald-700">
+                            <h4 class="font-bold text-emerald-900 mb-2">長期主義</h4>
+                            <p class="text-sm text-slate-500">拒絕短期行為，追求可持續價值。</p>
+                        </div>
+                        <div class="p-6 bg-slate-50 border-l-4 border-emerald-700">
+                            <h4 class="font-bold text-emerald-900 mb-2">合規優先</h4>
+                            <p class="text-sm text-slate-500">嚴守國際法規，確保項目穩健。</p>
+                        </div>
+                        <div class="p-6 bg-slate-50 border-l-4 border-emerald-700">
+                            <h4 class="font-bold text-emerald-900 mb-2">多方協作</h4>
+                            <p class="text-sm text-slate-500">構建多方溝通橋樑，推動共贏。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Solomon -->
+        <section class="py-24 bg-slate-50">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold text-emerald-900 mb-4">為何選擇所羅門群島</h2>
+                    <p class="text-slate-600 max-w-2xl mx-auto">所羅門群島位於南太平洋關鍵區域，擁有廣闊的森林與海洋生態資源。在全球綠色轉型背景下，這裡具備長期的可持續發展空間。</p>
+                </div>
+                <div class="bg-white p-8 rounded shadow-sm border border-slate-100 flex flex-col md:flex-row gap-12 items-center">
+                    <div class="md:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80" class="rounded shadow-lg" alt="Solomon Nature">
+                    </div>
+                    <div class="md:w-1/2">
+                        <p class="text-slate-600 mb-6 leading-relaxed">我們持續開展背景研究與國際交流，為合作提供更清晰的認知與路徑。所羅門群島不僅是資源寶庫，更是未來碳權與生態合作的核心前沿。</p>
+                        <a href="solomon-overview.html" class="px-6 py-3 bg-emerald-800 text-white inline-block">探索國情概況</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Focus Cards -->
+        <section class="py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <h2 class="text-center text-3xl font-bold text-emerald-900 mb-16">核心發展方向</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="p-10 border border-slate-100 hover:shadow-xl transition group">
+                        <h3 class="text-xl font-bold mb-4 text-emerald-900 group-hover:text-emerald-700 transition">碳權與生態合作</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed mb-6">圍繞森林與海洋資源，探索符合國際趨勢的合作模式，致力於全球淨零排放貢獻。</p>
+                        <a href="carbon-plan-overview.html" class="text-emerald-700 font-bold text-xs uppercase tracking-widest">了解計劃 &rarr;</a>
+                    </div>
+                    <div class="p-10 border border-slate-100 hover:shadow-xl transition group">
+                        <h3 class="text-xl font-bold mb-4 text-emerald-900 group-hover:text-emerald-700 transition">自由貿易與產業構想</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed mb-6">研究區域合作路徑，推動資源、技術與產業協同發展，優化南太平洋供應鏈。</p>
+                        <a href="sez-overview.html" class="text-emerald-700 font-bold text-xs uppercase tracking-widest">查看構想 &rarr;</a>
+                    </div>
+                    <div class="p-10 border border-slate-100 hover:shadow-xl transition group">
+                        <h3 class="text-xl font-bold mb-4 text-emerald-900 group-hover:text-emerald-700 transition">經濟特區與區域發展</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed mb-6">聚焦制度與規劃方向，支持長期、穩健與可驗證的推進，共築區域繁榮基石。</p>
+                        <a href="sez-overview.html" class="text-emerald-700 font-bold text-xs uppercase tracking-widest">研究規劃 &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy -->
+        <section class="py-24 bg-emerald-900 text-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="max-w-3xl">
+                    <h2 class="text-3xl font-bold mb-8">穩健推進 · 分階段發展</h2>
+                    <p class="text-emerald-100 text-lg leading-relaxed mb-12">我們強調循序推進與合規優先，重視信息透明與可驗證的合作基礎。相關內容以公開信息與背景說明為主，不構成投資邀約或交易安排。</p>
+                    <div class="flex flex-col md:flex-row gap-8">
+                        <div>
+                            <div class="text-emerald-400 font-bold text-xl mb-2">階段一</div>
+                            <p class="text-sm text-emerald-200/70">探索與研究，建立深厚的背景資料庫。</p>
+                        </div>
+                        <div>
+                            <div class="text-emerald-400 font-bold text-xl mb-2">階段二</div>
+                            <p class="text-sm text-emerald-200/70">交流與協調，尋求國際共識與模式梳理。</p>
+                        </div>
+                        <div>
+                            <div class="text-emerald-400 font-bold text-xl mb-2">階段三</div>
+                            <p class="text-sm text-emerald-200/70">結構優化與落實，邁向長期價值實現。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact CTA -->
+        <section class="py-24 bg-slate-50">
+            <div class="max-w-7xl mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold text-emerald-900 mb-6">授權聯絡窗口與聯繫我們</h2>
+                <p class="text-slate-600 mb-10 max-w-xl mx-auto">如需了解合作方向與對接方式，請通過官方聯絡渠道取得聯繫。具體合作事項將基於獨立、合規的商業框架另行溝通確認。</p>
+                <div class="flex justify-center gap-4">
+                    <a href="authorized-contact.html" class="px-8 py-3 bg-emerald-800 text-white font-medium">授權聯絡窗口</a>
+                    <a href="contact-us.html" class="px-8 py-3 border border-emerald-800 text-emerald-800 font-medium">填寫聯繫表單</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (Unified) -->
+    <footer class="bg-slate-900 text-slate-400 py-12">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center border-b border-slate-800 pb-8 mb-8">
+                <div class="mb-4 md:mb-0">
+                    <div class="text-white text-xl font-bold tracking-widest">大广集团</div>
+                </div>
+                <div class="text-center text-sm italic font-light">
+                    "以綠色為基礎 · 以合作為橋梁 · 以長期價值為目標"
+                </div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8 text-xs">
+                <div>
+                    <h5 class="text-white mb-4 uppercase tracking-widest">公司資訊</h5>
+                    <ul class="space-y-2">
+                        <li><a href="company-profile.html" class="hover:text-emerald-400">公司概況</a></li>
+                        <li><a href="company-history.html" class="hover:text-emerald-400">發展歷程</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-white mb-4 uppercase tracking-widest">核心計劃</h5>
+                    <ul class="space-y-2">
+                        <li><a href="carbon-plan-overview.html" class="hover:text-emerald-400">碳權計劃</a></li>
+                        <li><a href="sez-overview.html" class="hover:text-emerald-400">經濟特區</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-white mb-4 uppercase tracking-widest">資源中心</h5>
+                    <ul class="space-y-2">
+                        <li><a href="solomon-overview.html" class="hover:text-emerald-400">所羅門國情</a></li>
+                        <li><a href="solomon-environment.html" class="hover:text-emerald-400">自然資源</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-white mb-4 uppercase tracking-widest">幫助與法律</h5>
+                    <ul class="space-y-2">
+                        <li><a href="authorized-contact.html" class="hover:text-emerald-400">法律聲明</a></li>
+                        <li><a href="contact-us.html" class="hover:text-emerald-400">聯繫我們</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-[10px] leading-relaxed text-slate-500 mb-4">
+                免責聲明：本網站所載內容僅供一般參考之用，不構成任何形式的投資邀約、交易承諾或法律授權。大广集团保留對網站內容進行隨時更新、調整之權利。在任何正式商業合作展開前，請務必經由官方授權聯絡窗口核實身份。
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center text-[10px] tracking-widest">
+                <p>© 2024-2026 大广集团 | DAGUANG GROUP. ALL RIGHTS RESERVED.</p>
+                <p class="mt-2 md:mt-0">南太平洋區域戰略合作伙伴</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
