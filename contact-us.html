@@ -1,65 +1,136 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>聯繫我們 | 大广集团</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <style>body { font-family: 'Noto Sans TC', sans-serif; } .nav-dropdown:hover .nav-dropdown-menu { display: block; }</style>
+  <meta charset="UTF-8">
+  <title>联系我们｜大广集团</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-white">
-    <header class="pt-32 pb-16 bg-slate-50 border-b">
-        <div class="max-w-7xl mx-auto px-6">
-            <h1 class="text-3xl font-bold text-emerald-900">聯繫我們</h1>
-            <nav class="text-sm text-slate-400 mt-2">首頁 / 聯絡我們 / 聯繫我們</nav>
-        </div>
-    </header>
+<body class="bg-slate-50 text-slate-800">
 
-    <main class="py-20">
-        <div class="max-w-6xl mx-auto px-6">
-            <div class="flex flex-col lg:flex-row gap-16">
-                <div class="lg:w-1/3">
-                    <h3 class="text-2xl font-bold text-emerald-900 mb-6">歡迎與我們交流</h3>
-                    <p class="text-slate-600 mb-8">無論是項目合作、媒體採訪或是加入我們的執行團隊，大广集团都歡迎來自各界的聲音。</p>
-                    
-                    <div class="space-y-6">
-                        <div>
-                            <h5 class="font-bold text-slate-800 text-sm uppercase">官方信箱</h5>
-                            <p class="text-emerald-700">official@daguanggroup.com</p>
-                        </div>
-                        <div>
-                            <h5 class="font-bold text-slate-800 text-sm uppercase">聯繫電話</h5>
-                            <p class="text-slate-600">+677 XXX XXX (Solomon Islands)</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="lg:w-2/3 bg-white p-10 shadow-xl border border-slate-100 rounded-lg">
-                    <form class="space-y-6">
-                        <div class="grid md:grid-cols-2 gap-6">
-                            <div>
-                                <label class="block text-sm font-medium text-slate-700 mb-2">姓名</label>
-                                <input type="text" class="w-full bg-slate-50 border-slate-200 rounded px-4 py-3 focus:ring-emerald-500">
-                            </div>
-                            <div>
-                                <label class="block text-sm font-medium text-slate-700 mb-2">聯繫電話</label>
-                                <input type="text" class="w-full bg-slate-50 border-slate-200 rounded px-4 py-3 focus:ring-emerald-500">
-                            </div>
-                        </div>
-                        <div>
-                            <label class="block text-sm font-medium text-slate-700 mb-2">電子郵件</label>
-                            <input type="email" class="w-full bg-slate-50 border-slate-200 rounded px-4 py-3 focus:ring-emerald-500">
-                        </div>
-                        <div>
-                            <label class="block text-sm font-medium text-slate-700 mb-2">需求描述</label>
-                            <textarea rows="5" class="w-full bg-slate-50 border-slate-200 rounded px-4 py-3 focus:ring-emerald-500"></textarea>
-                        </div>
-                        <button class="w-full bg-emerald-900 text-white font-bold py-4 rounded hover:bg-emerald-800 transition">提交申請</button>
-                    </form>
-                </div>
-            </div>
+<!-- NAV -->
+<nav class="bg-white border-b border-slate-200">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <a href="index.html" class="text-xl font-bold text-emerald-800">大广集团</a>
+    <div class="space-x-6 text-sm">
+      <a href="index.html" class="hover:text-emerald-700">首页</a>
+      <a href="company-profile.html" class="hover:text-emerald-700">公司简介</a>
+      <a href="solomon-overview.html" class="hover:text-emerald-700">认识所罗门</a>
+      <a href="carbon-plan-overview.html" class="hover:text-emerald-700">碳权计划</a>
+      <a href="sez-overview.html" class="hover:text-emerald-700">经济特区</a>
+      <a href="authorized-contact.html" class="hover:text-emerald-700">授权联络</a>
+      <a href="contact-team.html" class="hover:text-emerald-700">业务团队</a>
+      <a href="contact-us.html" class="text-emerald-800 font-medium">联系我们</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HEADER -->
+<header class="bg-slate-900 text-white py-20">
+  <div class="max-w-4xl mx-auto px-6">
+    <h1 class="text-3xl font-bold mb-4">联系我们</h1>
+    <p class="text-slate-200 leading-relaxed">
+      如需了解对接方式与沟通流程，请通过本页提交信息或直接发送邮件至官方授权邮箱。
+      为确保身份可核验、沟通可追溯，建议优先使用邮件方式。
+    </p>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main class="max-w-4xl mx-auto px-6 py-20">
+
+  <!-- Redirect Notice -->
+  <section class="bg-white border border-slate-200 rounded-lg p-8 mb-10">
+    <h2 class="text-lg font-bold text-emerald-900 mb-3">官方统一收件入口</h2>
+    <p class="text-sm text-slate-700 leading-relaxed">
+      本集团对外正式沟通与核验统一通过授权联络窗口邮箱进行。若您收到任何自称“顾问/代理/授权招商”的联系，
+      且对方不在授权名单中，请先停止沟通，并回到授权联络窗口进行核验。
+    </p>
+    <div class="mt-4 text-sm">
+      官方邮箱：
+      <a href="mailto:3098145316@qq.com" class="text-emerald-700 font-medium hover:underline">3098145316@qq.com</a>
+    </div>
+    <div class="mt-5">
+      <a href="authorized-contact.html" class="inline-block px-6 py-2 bg-emerald-800 text-white text-sm rounded hover:bg-emerald-700 transition">
+        查看授权联络窗口（E-1）
+      </a>
+      <a href="contact-team.html" class="inline-block px-6 py-2 ml-2 border border-emerald-800 text-emerald-800 text-sm rounded hover:bg-emerald-50 transition">
+        查看业务联络团队（E-2）
+      </a>
+    </div>
+  </section>
+
+  <!-- Form -->
+  <section class="bg-white border border-slate-200 rounded-lg p-8">
+    <h2 class="text-lg font-bold text-slate-800 mb-6">联系表单（信息留痕）</h2>
+
+    <!-- 说明：纯静态站无法直接发送表单。
+         你可以后续接 Cloudflare Forms / Formspree / Google Forms。
+         这里先做“页面级规范表单”，并提供 mailto 作为可用方案。 -->
+
+    <form class="space-y-5" onsubmit="return false;">
+      <div>
+        <label class="block text-sm text-slate-600 mb-2">您的姓名 / 机构</label>
+        <input type="text" class="w-full border border-slate-300 rounded px-4 py-3 bg-white" placeholder="例如：张三 / XX 公司" />
+      </div>
+
+      <div class="grid sm:grid-cols-2 gap-4">
+        <div>
+          <label class="block text-sm text-slate-600 mb-2">邮箱</label>
+          <input type="email" class="w-full border border-slate-300 rounded px-4 py-3 bg-white" placeholder="name@example.com" />
         </div>
-    </main>
+        <div>
+          <label class="block text-sm text-slate-600 mb-2">联系电话（可选）</label>
+          <input type="text" class="w-full border border-slate-300 rounded px-4 py-3 bg-white" placeholder="可不填写" />
+        </div>
+      </div>
+
+      <div>
+        <label class="block text-sm text-slate-600 mb-2">沟通主题</label>
+        <input type="text" class="w-full border border-slate-300 rounded px-4 py-3 bg-white" placeholder="例如：合作咨询 / 背景资料请求 / 身份核验" />
+      </div>
+
+      <div>
+        <label class="block text-sm text-slate-600 mb-2">详细说明</label>
+        <textarea rows="6" class="w-full border border-slate-300 rounded px-4 py-3 bg-white" placeholder="请描述您的需求、背景与期望沟通方式（建议留下可核验的信息）。"></textarea>
+      </div>
+
+      <div class="bg-slate-50 border border-slate-200 rounded p-4 text-xs text-slate-600 leading-relaxed">
+        说明：本网站为静态页面，表单默认不直接发送。请点击下方按钮使用邮件方式提交信息（可追溯、可核验）。
+      </div>
+
+      <div class="flex flex-col sm:flex-row gap-3">
+        <a
+          class="inline-block px-6 py-3 bg-emerald-800 text-white text-sm rounded hover:bg-emerald-700 transition text-center"
+          href="mailto:3098145316@qq.com?subject=%E3%80%90%E5%A4%A7%E5%B9%BF%E9%9B%86%E5%9B%A2%E5%AE%98%E7%BD%91%E3%80%91%E8%81%94%E7%B3%BB%E8%AF%A2%E8%AF%A2&body=%E8%AF%B7%E5%A4%8D%E5%88%B6%E4%B8%8B%E5%88%97%E6%A0%BC%E5%BC%8F%E5%A1%AB%E5%86%99%EF%BC%9A%0A%0A1)%20%E5%A7%93%E5%90%8D%2F%E6%9C%BA%E6%9E%84%EF%BC%9A%0A2)%20%E9%82%AE%E7%AE%B1%EF%BC%9A%0A3)%20%E8%81%94%E7%B3%BB%E7%94%B5%E8%AF%9D%EF%BC%88%E5%8F%AF%E9%80%89%EF%BC%89%EF%BC%9A%0A4)%20%E4%B8%BB%E9%A2%98%EF%BC%9A%0A5)%20%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E%EF%BC%9A%0A"
+        >
+          使用邮件提交（推荐）
+        </a>
+
+        <a
+          class="inline-block px-6 py-3 border border-slate-300 text-slate-700 text-sm rounded hover:bg-white transition text-center"
+          href="authorized-contact.html"
+        >
+          返回授权联络窗口（E-1）
+        </a>
+      </div>
+    </form>
+  </section>
+
+  <p class="mt-12 text-xs text-slate-500 leading-relaxed">
+    免责声明：本页面内容仅用于沟通指引与信息留痕，不构成任何投资邀约、交易承诺或法律授权。
+  </p>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-slate-900 text-slate-400 py-10">
+  <div class="max-w-7xl mx-auto px-6 text-xs leading-relaxed">
+    © 2024–2026 大广集团｜DAGUANG GROUP  
+    <br>
+    本网站内容仅供信息参考，不构成任何形式之投资、交易或法律承诺。
+  </div>
+</footer>
+
 </body>
 </html>
